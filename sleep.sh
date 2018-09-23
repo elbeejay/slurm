@@ -2,7 +2,7 @@
 #SBATCH --nodes=1
 #SBATCH --time=0:01:00
 #SBATCH --qos=normal
-#SBATCH --partition=shas
+#SBATCH --partition=ucb-general
 #SBATCH --output=sleep_%j.out
 #SBATCH --job-name=sleep
 #SBATCH --mail-type=end
