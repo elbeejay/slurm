@@ -2,7 +2,6 @@
 
 #SBATCH --nodes=1
 #SBATCH --time=0:05:00
-#SBATCH --qos=preemptable
 #SBATCH --ntasks=1
 #SBATCH --job-name=jhariharan-test
 #SBATCH --output=jhariharan-test.%j.out
