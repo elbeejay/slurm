@@ -9,6 +9,6 @@
 module purge
 module load python
 
-cd /scratch/summit/jayaram@xsede.org/pyDeltaRCM_WMT
+cd /home/jayaram@xsede.org/pyDeltaRCM_WMT
 
 python run_pyDeltaRCM.py
